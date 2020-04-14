@@ -9,6 +9,7 @@ This is a Maven project :)
 * [x] save server to git
 * [x] load server from git
 * [x] execute commands (command output missing yet)
+* [ ] help
 * [ ] authentication (passwords + whitelist for certain commands)
 * [ ] list servers
 * [ ] add server
