@@ -28,6 +28,12 @@ public class App
 			if(config.has("java")) {
 				ServerHandler.javaPath = config.get("java").getAsString();
 			}
+			if(config.has("bot")) {
+				Bot.name = config.get("bot").getAsString();
+			}
+			if(config.has("token")) {
+				Bot.name = config.get("token").getAsString();
+			}
 			JsonArray servers = config.get("servers").getAsJsonArray();
 			servers.forEach(x -> {
 				ServerHandler handler = new ServerHandler(x.getAsJsonObject());
@@ -38,6 +44,7 @@ public class App
 		}
         
         bot.register("server", server::command);
+        // yeah ik it is ugly but shut up :)
         bot.register("Server", server::command);
 
         try {
