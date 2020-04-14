@@ -1,6 +1,6 @@
 {
 "java":"java",
 "servers": [
-	{"name":"vanilla", "cmd":["-Xmx2G"], "path":"server.jar"}
+	{"name":"vanilla", "cmd":["-Xmx2G"], "path":"server/server.jar"}
 ]
 }
