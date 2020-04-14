@@ -58,7 +58,7 @@ public class CommandBot extends TelegramLongPollingBot{
 
 	@Override
 	public String getBotToken() {
-		return "1020315721:AAHYy00bbCcfydRq3LMK1OfmE9-xxKJTSR8";
+		return "<token>";
 	}
 
 }
