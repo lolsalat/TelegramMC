@@ -29,7 +29,7 @@ public class App
 				Bot.name = config.get("bot").getAsString();
 			}
 			if(config.has("token")) {
-				Bot.name = config.get("token").getAsString();
+				Bot.token = config.get("token").getAsString();
 			}
 			JsonArray servers = config.get("servers").getAsJsonArray();
 			servers.forEach(x -> {
