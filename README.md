@@ -3,7 +3,13 @@ Telegram Bot to manage minecraft servers
 
 This is a Maven project :)
 
-## Setup
+## Setup from Release
+0. Git must be installed and in path, else *save* and *load* won't work
+1. download stuff
+2. Setup servers, java and bot credentials in settings.json (see below)
+3. Start jar with java version 11 or higher
+
+## Setup from Source
 0. Git must be installed and in path, else *save* and *load* won't work
 1. Import as maven Project
 2. Setup bot credentials in lolsalat/telegramMC/Bot.java (Username looks something like 'example_bot' and token "123467:ABCdef_asdsdasds") or set them up in settings.json
