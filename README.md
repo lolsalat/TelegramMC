@@ -9,13 +9,13 @@ This is a Maven project :)
 [x] save server to git
 [x] load server from git
 [x] execute commands (command output missing yet)
-[] authentication (passwords + whitelist for certain commands)
-[] list servers
-[] add server
-[] remove server
-[] read server log
-[] server stats (we could itegrate the query api)
-[] remote controll PC (shutdown etc. This requires authentication to be implemented though)
+[ ] authentication (passwords + whitelist for certain commands)
+[ ] list servers
+[ ] add server
+[ ] remove server
+[ ] read server log
+[ ] server stats (we could itegrate the query api)
+[ ] remote controll PC (shutdown etc. This requires authentication to be implemented though)
 
 ## Setup from Release
 0. Git must be installed and in path, else *save* and *load* won't work
