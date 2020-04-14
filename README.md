@@ -14,7 +14,7 @@ This is a Maven project :)
 
 *token*: Your Telegram bot token (can also be set in Java code. Json overwrites Java setting)
 
-*java*: Path to java executable of java11 (or higher). E.g. 'C:\Program Files\Java\jdk11\bin\java.exe' on Windows. If java11 (or higher) is in PATH, just 'java' is fine.
+*java*: Path to java executable of Java8. E.g. 'C:\Program Files\Java\jdk8\bin\java.exe' on Windows. If java8 is in PATH, just 'java' is fine. Note that it kinda has to be Java8 exspecially for older minecraft versions, else they will just crash.
 
 *servers*: List of Server configuration Objects
 * *name*: Name of server (in Telegram Bot)
