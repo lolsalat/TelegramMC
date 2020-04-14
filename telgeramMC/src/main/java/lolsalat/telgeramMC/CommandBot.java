@@ -53,12 +53,12 @@ public class CommandBot extends TelegramLongPollingBot{
 	}
 
 	public String getBotUsername() {
-		return "MCRemoteServer_bot";
+		return Bot.name;
 	}
 
 	@Override
 	public String getBotToken() {
-		return "<token>";
+		return Bot.token;
 	}
 
 }
