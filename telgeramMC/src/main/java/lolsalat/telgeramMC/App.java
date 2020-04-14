@@ -17,10 +17,7 @@ public class App
     public static void main( String[] args )
     {
     	ApiContextInitializer.init();
-        TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
-        
-        CommandBot bot = new CommandBot();
-        
+
         ServerCommand server = new ServerCommand();
         
         try {
@@ -42,6 +39,11 @@ public class App
 		} catch(Exception e1) {
 			e1.printStackTrace();
 		}
+        
+        TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
+        
+        CommandBot bot = new CommandBot();
+        
         
         bot.register("server", server::command);
         // yeah ik it is ugly but shut up :)
